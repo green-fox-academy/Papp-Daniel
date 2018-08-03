@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7b07c6f-137d-4796-9fdf-1718a8c3eba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AnimalsAndLegs/src/AnimalsAndLegs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-03/HelloUser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-03/HelloUser/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConditionalVariableMutation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConditionalVariableMutation/src/ConditionalVaribaleMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IWontCheatOnTheExams/src/IWontCheatOnTheExams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PartyIndicator/src/PartyIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalsAndLegs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalsAndLegs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/MileToKmConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="43" />
+              <caret line="9" column="43" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -91,7 +95,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -122,7 +126,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533291480629" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533299074882" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -162,15 +166,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533290089860</updated>
-      <workItem from="1533290094323" duration="1334000" />
+      <workItem from="1533290094323" duration="2095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1334000" />
+    <option name="totallyTimeSpent" value="2095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -223,7 +227,7 @@
     <entry file="file://$PROJECT_DIR$/src/MileToKmConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="43" />
+          <caret line="9" column="43" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
