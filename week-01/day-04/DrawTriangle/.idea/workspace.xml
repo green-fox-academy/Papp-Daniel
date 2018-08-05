@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6473084-8573-49bb-a48c-a5b357d8cfe5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CountFromTo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountFromTo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountFromTo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountFromTo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountFromTo/CountFromTo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountFromTo/out/production/CountFromTo/CountFromTo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountFromTo/src/CountFromTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DrawTriangle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DrawTriangle/DrawTriangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FizzBuzz/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FizzBuzz/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FizzBuzz/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FizzBuzz/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FizzBuzz/FizzBuzz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FizzBuzz/out/production/FizzBuzz/FizzBuzz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FizzBuzz/src/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MileToKmConverter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MileToKmConverter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,12 +31,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="125" />
+          <entry key="java" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="125" />
+          <entry key="JAVA" value="227" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -128,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533453706012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533453926545" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -168,12 +147,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533453502435</updated>
-      <workItem from="1533453505743" duration="196000" />
+      <workItem from="1533453505743" duration="414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196000" />
+    <option name="totallyTimeSpent" value="414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -218,8 +197,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
