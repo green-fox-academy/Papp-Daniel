@@ -12,7 +12,7 @@ public class toDoPrint {
         todo.append("\t - Diablo");
 
         todoText = todo.toString();
-        
+
         System.out.println(todoText);
 
     }

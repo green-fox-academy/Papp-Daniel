@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cabce1f-1955-4156-aa71-bf5e8fd3ed24" name="Default Changelist" comment="">
+    <list default="true" id="4ed8fead-0407-46c1-8ee2-2b14da2e4ab1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SolarSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../week-01/day-04/GuessTheNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week-01/day-04/GuessTheNumber/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day-01/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day-01/.idea/misc.xml" beforeDir="false" />
@@ -18,8 +19,11 @@
       <change beforePath="$PROJECT_DIR$/../../day-01/Summing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-01/Summing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day-01/out/production/Doubling/Doubling.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day-01/src/Doubling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reverse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reverse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleRerplace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRerplace/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UrlFixer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlFixer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../toDoPrint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../toDoPrint/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../toDoPrint/src/toDoPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../toDoPrint/src/toDoPrint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,32 +33,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1221401307">
+    <session id="-2004241636">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="290" />
+          <entry key="java" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="290" />
+          <entry key="JAVA" value="249" />
         </counts>
       </usages-collector>
     </session>
@@ -62,10 +66,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/toDoPrint.java">
+        <entry file="file://$PROJECT_DIR$/src/SolarSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="375">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../matarialRewiev/addREmove/src/addREmove.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="393">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +104,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/toDoPrint.java" />
+        <option value="$PROJECT_DIR$/src/SolarSystem.java" />
       </list>
     </option>
   </component>
@@ -106,37 +114,39 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="toDoPrint" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toDoPrint" type="462c0819:PsiDirectoryNode" />
+              <item name="SolarSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolarSystem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533642888265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533648581067" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -153,16 +163,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="toDoPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toDoPrint" />
-      <module name="toDoPrint" />
+    <configuration name="SolarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SolarSystem" />
+      <module name="SolarSystem" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.toDoPrint" />
+        <item itemvalue="Application.SolarSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -171,20 +181,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2cabce1f-1955-4156-aa71-bf5e8fd3ed24" name="Default Changelist" comment="" />
-      <created>1533642032191</created>
+      <changelist id="4ed8fead-0407-46c1-8ee2-2b14da2e4ab1" name="Default Changelist" comment="" />
+      <created>1533643910459</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533642032191</updated>
-      <workItem from="1533642035019" duration="925000" />
+      <updated>1533643910459</updated>
+      <workItem from="1533643913817" duration="2170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="925000" />
+    <option name="totallyTimeSpent" value="2170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -193,14 +203,14 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24960753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22131148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,22 +233,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../matarialRewiev/String/src/STringsEx.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../matarialRewiev/addREmove/src/addREmove.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="393">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/toDoPrint.java">
+    <entry file="file://$PROJECT_DIR$/src/SolarSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="375">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

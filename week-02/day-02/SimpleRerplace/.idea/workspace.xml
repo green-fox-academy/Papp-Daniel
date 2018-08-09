@@ -30,6 +30,7 @@
     <session id="787775456">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -62,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -92,7 +93,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -122,7 +123,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533634879577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533634881499" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -162,16 +163,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533634678585</updated>
-      <workItem from="1533634682600" duration="193000" />
+      <workItem from="1533634682600" duration="278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193000" />
+    <option name="totallyTimeSpent" value="278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -187,7 +187,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,7 +216,7 @@
     <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
