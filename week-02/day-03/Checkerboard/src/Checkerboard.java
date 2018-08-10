@@ -12,7 +12,7 @@ public class Checkerboard {
         int y = 10;
 
        line1(x,y,graphics);
-       
+
 
     }
 

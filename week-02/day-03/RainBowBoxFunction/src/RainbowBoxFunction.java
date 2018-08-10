@@ -5,7 +5,6 @@ import javax.swing.*;
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
-
 public class RainbowBoxFunction {
     public static void mainDraw(Graphics graphics) {
 
@@ -25,11 +24,15 @@ public class RainbowBoxFunction {
 
 
     }
+
+
     public static void drawSquare ( Graphics graphics, Color colors, int sizes, int WIDTH, int HEIGHT) {
         graphics.setColor(colors);
         graphics.drawRect(WIDTH/2, HEIGHT/2, sizes, sizes);
 
     }
+
+
 
     // Don't touch the code below
     static int WIDTH = 320;
