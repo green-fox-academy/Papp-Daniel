@@ -3,7 +3,7 @@ public class Person {
     int age;
     String gender;
 
-    void indtroduce(String name, int age, String gender) {
+    void introduce(String name, int age, String gender) {
         System.out.println("Hi I am " + name + "a " + age + " years old " + gender + "!");
     }
 
@@ -13,7 +13,7 @@ public class Person {
     Person(String name, int age, String gender){
 
     }
-    Person(){
+    public Person(){
         this.name = "Jane Doe";
         this.age = 30;
         this.gender = "female";
