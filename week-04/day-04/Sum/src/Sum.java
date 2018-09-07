@@ -5,9 +5,6 @@ public class Sum {
     private ArrayList<Integer> listOfNumbers = new ArrayList<>();
     private int sum;
 
-    public int getSum() {
-        return sum;
-    }
 
     public ArrayList<Integer> getListOfNumbers() {
         return listOfNumbers;
