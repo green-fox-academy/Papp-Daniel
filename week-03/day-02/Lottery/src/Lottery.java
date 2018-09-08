@@ -11,9 +11,10 @@ public class Lottery {
         System.out.println(findTheMostCommon("lottery.csv"));
 
     }
-    public static Integer findTheMostCommon (String filename) {
+    public static List<Integer> findTheMostCommon (String filename) {
         List<Integer> lotteryNumbers = new ArrayList<>();
         Integer result = 0;
+        List<Integer> resultList = new ArrayList<>();
         try {
             Path filePath = Paths.get(filename);
             List<String> lines = Files.readAllLines(filePath);
@@ -34,15 +35,18 @@ public class Lottery {
                 map.put(lotteryNumber,counter+1);
             }
             Map.Entry<Integer,Integer> max = null;
+
             for (Map.Entry<Integer,Integer> counter : map.entrySet()){
                 if (max ==null || max.getValue() < counter.getValue()){
                     max = counter;
+                    resultList.add(max.getKey());
+
                 }
             }
-            result = max.getKey();
+
         } catch (IOException e) {
             System.out.println("Could not read the file!");
         }
-        return result;
+        return resultList;
     }
 }
