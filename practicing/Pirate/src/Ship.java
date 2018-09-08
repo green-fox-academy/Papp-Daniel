@@ -18,7 +18,7 @@ public class Ship {
     }
 
     public void fillShip() {
-        for (int i = 0; i < maxCrew-1; i++) {
+        for (int i = 0; i < maxCrew - 1; i++) {
             addPirate();
         }
         Captain captain = new Captain();
@@ -31,27 +31,23 @@ public class Ship {
 
     public boolean battle(Ship other) {
         boolean battleResult = true;
-        Random randomLoses = new Random();
         int loses = 10;//randomLoses.nextInt(10);
         int score = crew.size() - captain.getDrankRum();
         int otherScore = other.crew.size() - captain.getDrankRum();
         if (score > otherScore) {
             battleResult = true;
-        } else {
-            battleResult = false;
-        }
-        if (battleResult = true) {
             for (int i = 0; i < loses; i++) {
-                other.crew.remove(loses);
+                other.crew.remove(i);
             }
             System.out.println("They lost " + loses + " lads");
         } else {
+            battleResult = false;
             for (int j = 0; j < loses; j++) {
                 crew.remove(j);
             }
             System.out.println("We lost " + loses + " lads");
-
         }
+
         return battleResult;
     }
 
