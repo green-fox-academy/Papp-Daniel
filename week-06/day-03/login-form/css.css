@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightgrey;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 450px;
+    height: 420px;
+    background: white;
+    color: gray;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: left;
+    padding: 60px;
+}
+.loginbox input[type="button"] {
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    width: 100px;
+    height: 35px;
+}
+.loginbox input[type="text"] {
+    height: 25px;
+    border-color: green;
+}
+.loginbox input[type="password"] {
+    height: 25px;
+}
