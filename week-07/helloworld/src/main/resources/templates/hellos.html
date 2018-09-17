@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<ul th:each="hello : ${hellos}">
+    <h4 th:text="${hello}"></h4>
+</ul>
+</body>
+</html>
