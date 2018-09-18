@@ -1,4 +1,8 @@
 .tableOfBankaccount {
     background-color: dodgerblue;
-    border: black 2px;
+    border-color: black;
+
+}
+.king {
+    background-color: gold;
 }

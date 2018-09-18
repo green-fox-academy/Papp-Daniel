@@ -8,8 +8,22 @@
 <body>
     <table class="tableOfBankaccount">
         <th:block >
-            <tr th:id="" th:each="bankaccount : ${bankaccountList}">
-                <td th:text="${bankaccount.name}"></td> <td th:text="${#numbers.formatDecimal(bankaccount.balance,0,2)}"></td> <td th:text="${bankaccount.animalType}"></td>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Balance</th>
+            <th>Animal type</th>
+            <th>Good or Bad guy?</th>
+            <th>Is it King?</th>
+            <tr th:each="bankaccount : ${bankaccountList}">
+                <td th:text="${bankaccountStat.index+1}"></td>
+                <td th:text="${bankaccount.name}"></td>
+                <td th:text="${#numbers.formatDecimal(bankaccount.balance,0,2)}"></td>
+                <td th:text="${bankaccount.animalType}"></td>
+                <td th:switch="${bankaccount.isGodOrBadGuy()}">
+                    <span th:case="true">Good guy</span>
+                    <span th:case="false">Bad guy</span>
+                </td>
+                <td th:if="${bankaccount.isKing()==true}" class="king">King</td>
             </tr>
         </th:block>
     </table>

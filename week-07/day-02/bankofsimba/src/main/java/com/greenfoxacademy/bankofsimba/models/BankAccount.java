@@ -4,16 +4,35 @@ public class BankAccount {
     private String name;
     private long balance;
     private String animalType;
+    private boolean isKing;
+    private boolean godOrBadGuy;
 
-    public BankAccount(long id,String name, long balance, String animalType) {
-        this.id = id;
+    public BankAccount(String name, long balance, String animalType, boolean isKing, boolean godOrBadGuy) {
         this.name = name;
         this.balance = balance;
         this.animalType = animalType;
+        this.isKing = false;
+        this.godOrBadGuy = false;
     }
 
     public BankAccount() {
 
+    }
+
+    public boolean isGodOrBadGuy() {
+        return godOrBadGuy;
+    }
+
+    public void setGodOrBadGuy(boolean godOrBadGuy) {
+        this.godOrBadGuy = godOrBadGuy;
+    }
+
+    public boolean isKing() {
+        return isKing;
+    }
+
+    public void setKing(boolean king) {
+        isKing = king;
     }
 
     public String getName() {
