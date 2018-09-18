@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/bankofsimba.css}" />
+</head>
+<body>
+    <table class="tableOfBankaccount">
+        <th:block >
+            <tr th:id="" th:each="bankaccount : ${bankaccountList}">
+                <td th:text="${bankaccount.name}"></td> <td th:text="${#numbers.formatDecimal(bankaccount.balance,0,2)}"></td> <td th:text="${bankaccount.animalType}"></td>
+            </tr>
+        </th:block>
+    </table>
+</body>
+</html>
