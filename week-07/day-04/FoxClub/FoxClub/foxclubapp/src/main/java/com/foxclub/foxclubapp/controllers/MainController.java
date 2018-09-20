@@ -22,13 +22,9 @@ public class MainController {
 
     @RequestMapping("/")
     public String homepage(@RequestParam("name") String name, Model model) {
+        foxService.foxLogin(name);
         Fox aFox = foxService.findByName(name);
-        foxService.foxLogin(aFox.getName());
-        model.addAttribute("name", aFox.getName());
-        model.addAttribute("food", aFox.getFood());
-        model.addAttribute("drink", aFox.getDrink());
-        model.addAttribute("tricks", aFox.getNumberOfTricks());
-
+        model.addAttribute("info", "This is " + aFox.getName() + "." + " Currently living on "+ aFox.getFood() + " and " + aFox.getDrink() + ". He knows " + aFox.getNumberOfTricks() + " tricks");
         return "index";
     }
 
