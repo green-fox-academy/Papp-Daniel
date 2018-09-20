@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="color.css">
 </head>
 <body>
-    <p th:if="${email.contains('is valid')}" class="validateemail">valid</p>
-    <p th:if="${email.contains('is not a valid')}" class="falseemail">not valid</p>
+    <p th:if="${email.contains('is valid')}" class="validateemail" th:text="${email}">valid</p>
+    <p th:if="${email.contains('is not a valid')}" class="falseemail" th:text="${email}">not valid</p>
 </body>
 </html>
