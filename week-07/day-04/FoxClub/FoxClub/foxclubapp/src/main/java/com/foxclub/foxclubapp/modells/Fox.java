@@ -1,21 +1,31 @@
 package com.foxclub.foxclubapp.modells;
 
-import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
-@Service
 public class Fox {
     private String name;
-    private List tricks;
+    private List<String> tricks;
     private String food;
     private String drink;
+    private int numberOfTricks;
 
-    public Fox() {
+    public Fox(String name) {
         this.name = name;
-        this.tricks = tricks;
-        this.food = food;
-        this.drink = drink;
+        this.tricks = new ArrayList();
+        this.food = "burger";
+        this.drink = "cola";
+        this.numberOfTricks = tricks.size();
+    }
+
+
+    public int getNumberOfTricks() {
+        return numberOfTricks;
+    }
+
+    public void setNumberOfTricks(int numberOfTricks) {
+        this.numberOfTricks = numberOfTricks;
     }
 
     public String getName() {
@@ -26,11 +36,11 @@ public class Fox {
         this.name = name;
     }
 
-    public List getTricks() {
+    public List<String> getTricks() {
         return tricks;
     }
 
-    public void setTricks(List tricks) {
+    public void setTricks(List<String> tricks) {
         this.tricks = tricks;
     }
 
@@ -49,4 +59,5 @@ public class Fox {
     public void setDrink(String drink) {
         this.drink = drink;
     }
+
 }
