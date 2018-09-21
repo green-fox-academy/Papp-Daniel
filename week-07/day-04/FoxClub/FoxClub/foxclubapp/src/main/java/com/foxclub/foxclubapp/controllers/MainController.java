@@ -1,6 +1,5 @@
 package com.foxclub.foxclubapp.controllers;
 
-import com.foxclub.foxclubapp.enums.FoodEnum;
 import com.foxclub.foxclubapp.modells.Fox;
 import com.foxclub.foxclubapp.sevices.FoxService;
 import org.springframework.context.annotation.ComponentScan;
@@ -40,16 +39,5 @@ public class MainController {
         return "login";
     }
 
-    @GetMapping("/nutritionStore")
-    public String getNutritionStore(Model model) {
-        FoodEnum.values();
-        model.addAttribute("foods",FoodEnum.values());
-        return "nutritionStore";
-    }
-
-    @PostMapping("/nutritionStore")
-    public String postNutritionStore(String food) {
-        return "redirect:/";
-    }
 
 }
