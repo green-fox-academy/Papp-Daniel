@@ -1,9 +1,5 @@
 package com.foxclub.foxclubapp.modells;
 
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Fox {
     private String name;
     private String food;
@@ -29,10 +25,6 @@ public class Fox {
 
     public int getNumberOfTricks() {
         return numberOfTricks;
-    }
-
-    public void setNumberOfTricks(int numberOfTricks) {
-        this.numberOfTricks = numberOfTricks;
     }
 
     public String getName() {

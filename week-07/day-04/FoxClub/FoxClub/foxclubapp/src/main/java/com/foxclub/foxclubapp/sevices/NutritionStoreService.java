@@ -11,7 +11,7 @@ public class NutritionStoreService {
 
     public String findDrink(String drinkName) {
         for (String drink : drink.getDrinks()) {
-            if(drink.equals(drinkName)){
+            if (drink.equals(drinkName)) {
                 return drink;
             }
         }
@@ -20,7 +20,7 @@ public class NutritionStoreService {
 
     public String findFood(String foodName) {
         for (String food : food.getFoods()) {
-            if(food.equals(foodName)) {
+            if (food.equals(foodName)) {
                 return food;
             }
         }

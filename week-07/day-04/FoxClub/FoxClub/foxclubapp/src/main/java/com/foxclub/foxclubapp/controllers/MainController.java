@@ -24,9 +24,9 @@ public class MainController {
     public String homepage(@RequestParam("name") String name, Model model, String trick) {
         foxService.foxLogin(name);
         Fox aFox = foxService.findByName(name);
-        model.addAttribute("name",name);
-        model.addAttribute("info", "This is " + aFox.getName() + "." + " Currently living on "+ aFox.getFood() + " and " + aFox.getDrink() + ". He knows " + aFox.getNumberOfTricks() + " tricks");
-        model.addAttribute("tricks",aFox.getTrick());
+        model.addAttribute("name", name);
+        model.addAttribute("info", "This is " + aFox.getName() + "." + " Currently living on " + aFox.getFood() + " and " + aFox.getDrink() + ". He knows " + aFox.getNumberOfTricks() + " tricks");
+        model.addAttribute("tricks", aFox.getTrick());
 
         return "index";
     }

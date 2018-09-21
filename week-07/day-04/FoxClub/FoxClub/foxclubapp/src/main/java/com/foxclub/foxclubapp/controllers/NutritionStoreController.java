@@ -24,15 +24,15 @@ public class NutritionStoreController {
     @RequestMapping("/nutritionStore")
     public String getNutritionStore(@RequestParam("name") String name, Model model) {
         Fox fox = foxService.findByName(name);
-        model.addAttribute("fox",fox);
-        model.addAttribute("foods",nutritionStoreService.getFood().getFoods());
-        model.addAttribute("drinks",nutritionStoreService.getDrink().getDrinks());
+        model.addAttribute("fox", fox);
+        model.addAttribute("foods", nutritionStoreService.getFood().getFoods());
+        model.addAttribute("drinks", nutritionStoreService.getDrink().getDrinks());
 
         return "nutritionStore";
     }
 
     @PostMapping("/nutritionStore")
-    public String postNutritionFox(@RequestParam("name") String name, String food, String drink){
+    public String postNutritionFox(@RequestParam("name") String name, String food, String drink) {
         Fox fox = foxService.findByName(name);
         fox.setDrink(drink);
         fox.setFood(food);

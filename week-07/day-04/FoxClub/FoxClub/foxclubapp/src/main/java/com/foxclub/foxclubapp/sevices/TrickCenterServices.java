@@ -9,7 +9,7 @@ public class TrickCenterServices {
 
     public String findTrick(String trickName) {
         for (String trick : trick.getListOfTricks()) {
-            if(trick.equals(trickName)) {
+            if (trick.equals(trickName)) {
                 return trick;
             }
         }

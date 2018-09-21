@@ -9,7 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @ComponentScan
@@ -26,7 +25,7 @@ public class TrickCenterController {
     public String getTrickCenter(@RequestParam("name") String name, Model model) {
         Fox fox = foxService.findByName(name);
         model.addAttribute("fox", fox);
-        model.addAttribute("tricks",trickCenterServices.getTrick().getListOfTricks());
+        model.addAttribute("tricks", trickCenterServices.getTrick().getListOfTricks());
         return "trickcenter";
     }
 
