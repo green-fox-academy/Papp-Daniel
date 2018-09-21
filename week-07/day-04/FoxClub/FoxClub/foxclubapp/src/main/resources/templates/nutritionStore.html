@@ -6,10 +6,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<select action="/nutritionStore" th:method="post" class="selectmenu" >
-    <option th:each="food : ${foods}" th:text="${food}" ></option>
-    <input type="submit" value="Submit">
-</select>
+   <form th:action="@{'nutritionStore?name=' + ${fox.getName()}}" method="post" th:object="${fox}">
 
+       <label>Food</label>
+       <select th:field = "*{food}">
+           <option th:each="food: ${foods}" th:value="${food}">
+               <span  th:text="${food}"></span>
+           </option>
+       </select>
+
+       <label>Drink</label>
+       <select th:field = "*{drink}">
+           <option th:each="drink: ${drinks}" th:value="${drink}">
+               <span  th:text="${drink}"></span>
+           </option>
+       </select>
+       <button type="submit">Save</button>
+
+   </form>
 </body>
 </html>

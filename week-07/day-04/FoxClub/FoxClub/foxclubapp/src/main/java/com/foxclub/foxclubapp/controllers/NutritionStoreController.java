@@ -31,7 +31,7 @@ public class NutritionStoreController {
         return "nutritionStore";
     }
 
-    @PostMapping("/postNutrition")
+    @PostMapping("/nutritionStore")
     public String postNutritionFox(@RequestParam("name") String name, String food, String drink){
         Fox fox = foxService.findByName(name);
         fox.setDrink(drink);
