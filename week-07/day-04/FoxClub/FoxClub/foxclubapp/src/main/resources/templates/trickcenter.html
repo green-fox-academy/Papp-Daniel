@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{'trickcenter?name=' + ${fox.getName()}}" method="post" th:object="${fox}">
+
+    <label>Food</label>
+    <select th:field = "*{trick}">
+        <option th:each="trick: ${tricks}" th:value="${trick}">
+            <span  th:text="${trick}"></span>
+        </option>
+    </select>
+    <button type="submit">Save</button>
+</form>
+</body>
+</html>
