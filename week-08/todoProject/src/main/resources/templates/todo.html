@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1>Todos for today</h1>
-<a href="/addTodo">Add new ToDo</a>
-<ul th:each="todo : ${todoList}" th:value="${todo}">
-    <li th:text="${todo}"></li>
-</ul>
 
-<table th:action="todo" th:method="post" class="todoTable">
+<form action="/addTodo">
+    <input type="submit" class="btn btn-warning" value="Add new Todo" />
+</form>
+
+<table th:action="todo" th:method="post" class="table">
+    <thead>
     <tr>
-        <th>ID</th>
-        <th>Title</th>
-        <th>isDone</th>
-        <th>isUrgent</th>
+        <th scope="col">ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">isDone</th>
+        <th scope="col">isUrgent</th>
     </tr>
+    </thead>
+    <tbody>
     <th:block th:each="todo : ${todoList}">
         <tr>
-            <td th:text="${todo.getId()}"></td>
+            <td scope="row" th:text="${todo.getId()}"></td>
             <td th:text="${todo.getTitle()}"></td>
-            <td th:text="${todo.isDone()}"></td>
-            <td th:text="${todo.isUrgent()}"></td>
-            <td><a th:href="@{'/' + ${todo.getId()} + '/delete'}">Delete</a></td>
-            <td><a th:href="@{'/' + ${todo.getId()} + '/edit'}">Edit</a></td>
+            <td>
+                <span th:if="${todo.isDone()}" class="glyphicon glyphicon-ok"></span>
+                <span th:unless="${todo.isDone()}" class="glyphicon glyphicon-remove"></span>
+            </td>
+            <td>
+                <span th:if="${todo.isUrgent()}" class="glyphicon glyphicon-ok"></span>
+                <span th:unless="${todo.isUrgent()}" class="glyphicon glyphicon-remove"></span>
+            </td>
+            <td><a th:href="@{'/' + ${todo.getId()} + '/delete'}" class="btn btn-danger" role="button" aria-pressed="true">Delete</a></td>
+            <td><a th:href="@{'/' + ${todo.getId()} + '/edit'}" class="btn btn-primary" role="button" aria-pressed="true">Edit</a></td>
         </tr>
     </th:block>
+    </tbody>
 </table>
+<script src="webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>
 

@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Title</title>
+
 </head>
 <body>
+<div class="container-fluid">
+    <h2>Add new Todo</h2>
+    <form th:action="addTodo" th:method="post">
+        <div class="from-group">
+            <label for="text"></label>
+            <input type="text" class="form-controll" id="text" name="title">
+            <input type="submit" class="btn btn-danger" th:value="Save">
+        </div>
+    </form>
+</div>
 
-<h4>Add new ToDo</h4>
-<form th:action="addTodo" th:method="post">
-    <input type="text" name="title">
-    <input type="submit" th:value="Save">
 </form>
+<script src="webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>
+
