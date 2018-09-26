@@ -49,10 +49,9 @@ public class Todo {
 
     @Override
     public String toString() {
-        if(this.done == false) {
+        if (this.done == false) {
             return this.id + " - " + " [ ] " + this.title;
-        }
-        else {
+        } else {
             return this.id + " - " + " [x] " + this.title;
         }
     }
