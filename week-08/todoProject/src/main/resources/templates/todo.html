@@ -13,8 +13,8 @@
     <input type="submit" class="btn btn-warning" value="Add new Todo" />
 </form>
 
-<form th:action="@{/search}" method="post">
-    <input type="text" class="btn btn-warning" name="title" />
+<form th:action="@{/search}" method="get">
+    <input type="text" class="btn btn-primary" name="title" />
     <input type="submit" class="btn btn-warning" value="Search Todo by Title">
 </form>
 
