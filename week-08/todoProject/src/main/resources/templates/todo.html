@@ -13,6 +13,11 @@
     <input type="submit" class="btn btn-warning" value="Add new Todo" />
 </form>
 
+<form th:action="@{/search}" method="post">
+    <input type="text" class="btn btn-warning" name="title" />
+    <input type="submit" class="btn btn-warning" value="Search Todo by Title">
+</form>
+
 <table th:action="todo" th:method="post" class="table">
     <thead>
     <tr>
@@ -23,6 +28,7 @@
     </tr>
     </thead>
     <tbody>
+
     <th:block th:each="todo : ${todoList}">
         <tr>
             <td scope="row" th:text="${todo.getId()}"></td>
