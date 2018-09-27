@@ -18,6 +18,10 @@
     <input type="submit" class="btn btn-warning" value="Search Todo by Title">
 </form>
 
+<form th:action="@{/todo}" >
+    <input type="submit" class="btn btn-warning" value="Back">
+</form>
+
 <table th:action="todo" th:method="post" class="table">
     <thead>
     <tr>

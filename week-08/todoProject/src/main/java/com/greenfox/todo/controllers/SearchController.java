@@ -17,7 +17,7 @@ public class SearchController {
 
     @GetMapping("/search")
     public String searchTodo(String title, Model model) {
-        model.addAttribute("todoList",todoRepository.findByTitle(title));
+        model.addAttribute("todoList",todoRepository.findByTitleContains(title));
         return "todo";
     }
 
