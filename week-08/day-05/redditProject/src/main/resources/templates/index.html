@@ -27,12 +27,12 @@
                         <td th:text="${reddit.vote}"></td>
                         <td>
                             <form th:action="${reddit.id}+'/upvote'" method="post">
-                                <input type="submit" value="up">
+                                <input type="submit" value="up" class="btn btn-primary">
                             </form>
                         </td>
                         <td>
                             <form th:action="${reddit.id}+'/downvote'" method="post">
-                                <input type="submit" value="down">
+                                <input type="submit" value="down" class="btn btn-danger">
                             </form>
                         </td>
                         <td><a th:href="${reddit.url}" th:text="${reddit.name}"></a></td>

@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<form class="form-inline" th:action="submit" th:method="post">
+    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="text" name="name" placeholder="POST">
 
-<h1>Submit a new post</h1>
+    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+        <div class="input-group-addon">URL</div>
+        <input type="text" class="form-control" id="url" name="url" placeholder="URL">
+    </div>
 
-<form th:action="submit" th:method="post">
-    <input type="text" id="text" name="name">
-    <input type="url" id="url" name="url">
-    <input type="submit" value="Submit">
-
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+<!--<h1>Submit a new post</h1>-->
+
+<!--<form th:action="submit" th:method="post">-->
+    <!--<input type="text" id="text" name="name">-->
+    <!--<input type="url" id="url" name="url">-->
+    <!--<input type="submit" value="Submit">-->
+
+<!--</form>-->
+<script src="webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>
