@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>Trending posts</h1>
-    <table>
-        <th:block th:each="reddit:${reddits}" th:value="reddit">
-            <tr>
-                <td th:text="${reddit.vote}"></td>
-                <td>
-                    <form th:action="${reddit.id}+'/upvote'" method="post">
-                        <input type="submit" value="up">
-                    </form>
-                </td>
-                <td>
-                    <form th:action="${reddit.id}+'/downvote'" method="post">
-                        <input type="submit" value="down">
-                    </form>
-                </td>
-                <td><a th:href="${reddit.url}" th:text="${reddit.name}"></a></td>
-                <td th:text="${reddit.createdAt}"></td>
-            </tr>
-        </th:block>
-    </table>
+
+<div class="container">
+    <div class="card mt-4">
+        <div class="card-body">
+            <h1 class="header">Trending posts</h1>
+            <table class="table table-dark">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Vote</th>
+                    <th scope="col">UpVote</th>
+                    <th scope="col">DownVote</th>
+                    <th scope="col">Post</th>
+                    <th scope="col">Date</th>
+                </tr>
+                </thead>
+                <th:block th:each="reddit:${reddits}" th:value="reddit">
+                    <tr>
+                        <td th:text="${reddit.vote}"></td>
+                        <td>
+                            <form th:action="${reddit.id}+'/upvote'" method="post">
+                                <input type="submit" value="up">
+                            </form>
+                        </td>
+                        <td>
+                            <form th:action="${reddit.id}+'/downvote'" method="post">
+                                <input type="submit" value="down">
+                            </form>
+                        </td>
+                        <td><a th:href="${reddit.url}" th:text="${reddit.name}"></a></td>
+                        <td th:text="${reddit.createdAt}"></td>
+                    </tr>
+                </th:block>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>
+

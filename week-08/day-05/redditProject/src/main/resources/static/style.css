@@ -1,0 +1,20 @@
+.thead-dark {
+    background: black;
+    color: white;
+}
+
+body {
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Desktop-Dark-Pics-1080P-PIC-WPD009329.jpg");
+    background-color: #cccccc;
+}
+
+.header {
+    color:white;
+}
+
+.table table-dark {
+    color:white;
+}
+.table tr {
+    color:white;
+}
