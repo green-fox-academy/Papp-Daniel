@@ -2,6 +2,7 @@ package com.greenfox.frontend.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -30,12 +31,11 @@ public class MainController {
     @ResponseBody
     public Greet getGreeting(@RequestParam String name, String title) {
         Greet greet = new Greet();
-        if (name == null ) {
+        if (name == null) {
             greet.error = "Please provide a name!";
-        } else if(title == null){
+        } else if (title == null) {
             greet.error = "Please provide a title!";
-        }
-        else{
+        } else {
             greet.welcome_message = "Oh, hi there " + name + ", my dear " + title + "!";
         }
         return greet;
@@ -46,5 +46,15 @@ public class MainController {
         public String error;
     }
 
-    
+    @GetMapping("/appenda/{appendable}")
+    @ResponseBody
+    public Append getAppendaA(@PathVariable String appendable) {
+        Append append = new Append();
+        append.appended = appendable + "a";
+        return append;
+    }
+
+    static class Append {
+        public String appended;
+    }
 }
